@@ -1,18 +1,52 @@
-# Vue 3 + TypeScript + Vite
+# social-share
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+[![ci](https://github.com/Hiratake/social-share/actions/workflows/ci.yaml/badge.svg)](https://github.com/Hiratake/hiratake-web/actions/workflows/ci.yaml)
+![version](https://img.shields.io/npm/v/%40hiratake%2Fsocial-share)
+![license](https://img.shields.io/npm/l/%40hiratake%2Fsocial-share)
 
-## Recommended IDE Setup
+SNS シェアボタンの [Vue.js](https://ja.vuejs.org/) コンポーネントライブラリ。スタイルを持たず、機能だけのコンポーネントです。
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## 🚀 Setup
 
-## Type Support For `.vue` Imports in TS
+コンポーネントを使用するプロジェクトに `@hiratake/social-share` をインストールします。
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+```sh
+# npm
+$ npm install -D @hiratake/social-share
+# yarn
+$ yarn add -D @hiratake/social-share
+# pnpm
+$ pnpm add -D @hiratake/social-share
+```
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+インストール後、コンポーネントをインポートして使用します。
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+```vue
+<script lant="ts" setup>
+import { SocialShare, SocialShareButton } from '@hiratake/social-share'
+</script>
+
+<template>
+  <div>
+    <SocialShare
+      service="twitter"
+      url="https://example.com"
+      text="Blog Post Title"
+    >
+      <SocialShareButton>Share</SocialShareButton>
+    </SocialShare>
+  </div>
+</template>
+```
+
+## 🏗 Build
+
+以下のコマンドでビルドを実行します。ビルド後のファイルは `dist/` に出力されます。
+
+```sh
+$ pnpm build
+```
+
+## 📃 License
+
+MIT
