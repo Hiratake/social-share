@@ -5,6 +5,7 @@
   "publishConfig": {
     "access": "public"
   },
+  "description": "SNS Share Components for Vue",
   "keywords": [
     "vue"
   ],
