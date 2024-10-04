@@ -43,7 +43,7 @@
     "node": "20.12.1"
   },
   "dependencies": {
-    "@vueuse/core": "10.9.0"
+    "@vueuse/core": "11.1.0"
   },
   "devDependencies": {
     "@commitlint/cli": "19.2.1",
