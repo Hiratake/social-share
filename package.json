@@ -35,12 +35,9 @@
     }
   },
   "type": "module",
-  "packageManager": "pnpm@9.12.2",
-  "engines": {
-    "node": ">=18.18.0"
-  },
+  "packageManager": "pnpm@9.14.2",
   "volta": {
-    "node": "20.18.0"
+    "node": "22.11.0"
   },
   "dependencies": {
     "@vueuse/core": "11.1.0"
