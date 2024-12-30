@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/Hiratake/social-share/compare/v1.0.7...v1.0.8) (2024-12-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @vueuse/core to v12 ([#77](https://github.com/Hiratake/social-share/issues/77)) ([62d4a50](https://github.com/Hiratake/social-share/commit/62d4a5002c248ca2badd8e4a61602ae83d10dc86))
+
 ## [1.0.7](https://github.com/Hiratake/social-share/compare/v1.0.6...v1.0.7) (2024-10-23)
 
 
