@@ -41,7 +41,8 @@
   },
   "pnpm": {
     "onlyBuiltDependencies": [
-      "esbuild"
+      "esbuild",
+      "lefthook"
     ]
   },
   "dependencies": {
@@ -58,8 +59,7 @@
     "@vue/eslint-config-typescript": "14.4.0",
     "eslint": "9.21.0",
     "eslint-plugin-vue": "10.0.0",
-    "husky": "9.1.7",
-    "lint-staged": "15.4.3",
+    "lefthook": "1.11.2",
     "prettier": "3.5.3",
     "rimraf": "6.0.1",
     "semantic-release": "24.2.3",
@@ -81,7 +81,6 @@
     "typecheck:web": "vue-tsc --noEmit -p tsconfig.web.json --composite false",
     "format": "prettier \"**/!(*.md)\" -wu",
     "prebuild": "rimraf dist",
-    "prepublishOnly": "pnpm build",
-    "prepare": "husky"
+    "prepublishOnly": "pnpm build"
   }
 }
