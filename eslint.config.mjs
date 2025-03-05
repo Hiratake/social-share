@@ -1,11 +1,14 @@
 // ESLint
-import pluginVue from 'eslint-plugin-vue'
-import vueTsEslintConfig from '@vue/eslint-config-typescript'
 import prettierConfig from '@vue/eslint-config-prettier'
+import {
+  defineConfigWithVueTs,
+  vueTsConfigs,
+} from '@vue/eslint-config-typescript'
+import pluginVue from 'eslint-plugin-vue'
 
-export default [
-  ...pluginVue.configs['flat/recommended'],
-  ...vueTsEslintConfig(),
+export default defineConfigWithVueTs(
+  pluginVue.configs['flat/recommended'],
+  vueTsConfigs.recommended,
   prettierConfig,
   {
     files: ['**/*.vue'],
@@ -18,13 +21,8 @@ export default [
           math: 'always',
         },
       ],
-      'vue/component-tags-order': [
-        'error',
-        { order: ['script', 'template', 'style'] },
-      ],
+      'vue/block-order': ['error', { order: ['script', 'template', 'style'] }],
     },
   },
-  {
-    ignores: ['dist/*'],
-  },
-]
+  { ignores: ['dist/*'] },
+)
