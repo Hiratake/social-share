@@ -60,7 +60,7 @@ jobs:
         run: pnpm install
 
       - name: Check dependencies
-        run: pnpm audit signatures
+        run: npm audit signatures
 
       - name: Release package
         run: pnpm semantic-release
