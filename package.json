@@ -35,7 +35,7 @@
     }
   },
   "type": "module",
-  "packageManager": "pnpm@10.6.2",
+  "packageManager": "pnpm@10.6.3",
   "volta": {
     "node": "22.14.0"
   },
@@ -64,7 +64,7 @@
     "rimraf": "6.0.1",
     "semantic-release": "24.2.3",
     "typescript": "5.8.2",
-    "vite": "6.2.1",
+    "vite": "6.2.2",
     "vue": "3.5.13",
     "vue-tsc": "2.2.8"
   },
