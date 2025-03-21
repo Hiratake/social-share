@@ -35,7 +35,7 @@
     }
   },
   "type": "module",
-  "packageManager": "pnpm@10.6.2",
+  "packageManager": "pnpm@10.6.5",
   "volta": {
     "node": "22.14.0"
   },
@@ -53,8 +53,8 @@
     "@commitlint/config-conventional": "19.8.0",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
-    "@types/node": "22.13.10",
-    "@vitejs/plugin-vue": "5.2.1",
+    "@types/node": "22.13.11",
+    "@vitejs/plugin-vue": "5.2.3",
     "@vue/eslint-config-prettier": "10.2.0",
     "@vue/eslint-config-typescript": "14.5.0",
     "eslint": "9.22.0",
@@ -64,7 +64,7 @@
     "rimraf": "6.0.1",
     "semantic-release": "24.2.3",
     "typescript": "5.8.2",
-    "vite": "6.2.1",
+    "vite": "6.2.2",
     "vue": "3.5.13",
     "vue-tsc": "2.2.8"
   },
