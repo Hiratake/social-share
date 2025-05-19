@@ -1,3 +1,11 @@
+## [1.0.10](https://github.com/Hiratake/social-share/compare/v1.0.9...v1.0.10) (2025-05-19)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([#103](https://github.com/Hiratake/social-share/issues/103)) ([07ec1fc](https://github.com/Hiratake/social-share/commit/07ec1fccc4e7483fd9cc5cedd72848c7536584a4))
+* **deps:** update all non-major dependencies ([#93](https://github.com/Hiratake/social-share/issues/93)) ([488797b](https://github.com/Hiratake/social-share/commit/488797ba89adc41cacd5a3de6787ca328494a4d0))
+
 ## [1.0.9](https://github.com/Hiratake/social-share/compare/v1.0.8...v1.0.9) (2025-03-17)
 
 
