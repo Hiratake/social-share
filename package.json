@@ -35,7 +35,7 @@
     }
   },
   "type": "module",
-  "packageManager": "pnpm@10.11.1",
+  "packageManager": "pnpm@10.12.1",
   "volta": {
     "node": "22.14.0"
   },
@@ -53,11 +53,11 @@
     "@commitlint/config-conventional": "19.8.1",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
-    "@types/node": "22.15.30",
+    "@types/node": "22.15.31",
     "@vitejs/plugin-vue": "5.2.4",
     "@vue/eslint-config-prettier": "10.2.0",
     "@vue/eslint-config-typescript": "14.5.0",
-    "eslint": "9.28.0",
+    "eslint": "9.29.0",
     "eslint-plugin-vue": "10.2.0",
     "lefthook": "1.11.13",
     "prettier": "3.5.3",
