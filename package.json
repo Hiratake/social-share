@@ -35,7 +35,7 @@
     }
   },
   "type": "module",
-  "packageManager": "pnpm@10.12.3",
+  "packageManager": "pnpm@10.24.0",
   "volta": {
     "node": "22.14.0"
   },
@@ -46,27 +46,27 @@
     ]
   },
   "dependencies": {
-    "@vueuse/core": "13.4.0"
+    "@vueuse/core": "13.9.0"
   },
   "devDependencies": {
     "@commitlint/cli": "19.8.1",
     "@commitlint/config-conventional": "19.8.1",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
-    "@types/node": "22.15.32",
-    "@vitejs/plugin-vue": "6.0.0",
+    "@types/node": "22.19.1",
+    "@vitejs/plugin-vue": "6.0.2",
     "@vue/eslint-config-prettier": "10.2.0",
-    "@vue/eslint-config-typescript": "14.5.1",
-    "eslint": "9.29.0",
-    "eslint-plugin-vue": "10.2.0",
-    "lefthook": "1.11.14",
-    "prettier": "3.6.0",
-    "rimraf": "6.0.1",
-    "semantic-release": "24.2.5",
-    "typescript": "5.8.3",
+    "@vue/eslint-config-typescript": "14.6.0",
+    "eslint": "9.39.1",
+    "eslint-plugin-vue": "10.6.2",
+    "lefthook": "1.13.6",
+    "prettier": "3.7.4",
+    "rimraf": "6.1.2",
+    "semantic-release": "24.2.9",
+    "typescript": "5.9.3",
     "vite": "7.0.0",
-    "vue": "3.5.17",
-    "vue-tsc": "3.0.5"
+    "vue": "3.5.25",
+    "vue-tsc": "3.1.6"
   },
   "peerDependencies": {
     "vue": "^3.3.0"
