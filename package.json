@@ -46,7 +46,7 @@
     ]
   },
   "dependencies": {
-    "@vueuse/core": "13.4.0"
+    "@vueuse/core": "14.1.0"
   },
   "devDependencies": {
     "@commitlint/cli": "19.8.1",
